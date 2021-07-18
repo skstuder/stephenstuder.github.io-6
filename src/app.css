@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400|Space+Mono:400');
-@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 :root {
 	/* Define colors as colors */
 	--green: #00ebc7;
@@ -9,25 +10,26 @@
 	--darkBlue: #00214d;
 	--grey: #bfbfbf;
 	--lightGrey: #f2f4f6;
-	--darkGrey: #222;
+	--darkGrey: #1c1919;
 	--white: #fff;
+	--orange: #f2771a;
 	/* Define the colors intentions */
 	--primary: var(--green);
 	--danger: var(--red);
-	--background: var(--lightgrey);
+	--background: var(--grey);
 	--textColor: var(--black);
 	--buttonTextColor: var(--white);
 	--lineColor: var(--grey);
 	--cardBg: var(--white);
-	--headerBackground: var(--darkBlue);
+	--headerBackground: var(--white);
 	--footerBackground: var(--black);
 
 	/* Styles */
 	--line: solid 1px var(--lineColor);
 
 	/* Type */
-	--headingFont: 'Space Mono', monospace;
-	--bodyFont: 'Work Sans', sans-serif;
+	--headingFont: 'Teko', sans-serif;
+	--bodyFont: 'Open Sans', sans-serif;
 	--baseFontSize: 100%;
 	--h1: 3.052rem;
 	--h2: 2.441rem;
@@ -71,7 +73,7 @@ body {
 }
 
 header {
-	color: white;
+	color: var(--darkGrey);
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -82,15 +84,25 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 var(--containerPadding);
+	padding: 0 var(--containerPadding) 0 0;
+}
+
+ul {
+	display: flex;
+	list-style: none;
 }
 
 header nav a {
-	color: var(--white);
+	color: var(--darkGrey);
 	text-decoration: none;
+	transition: 0.3s ease-in-out color;
 }
 
-header nav a + a {
+header nav a:hover {
+	color: var(--orange);
+}
+
+header nav ul li + li {
 	margin-left: 10px;
 }
 

@@ -1,34 +1,77 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
 </script>
 
 <header>
-	<div class="">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+	<div class="logo">
+		<a href="/">
+			<h3 class="text web">Stephen Studer</h3>
+			<h3 class="text phone">SS</h3>
 		</a>
 	</div>
 
 	<nav>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
+
 		<ul>
 			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
 			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
 			<li class:active={$page.path === '/todos'}><a sveltekit:prefetch href="/todos">Todos</a></li>
 		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
+
 	</nav>
 
-	<div class="">
-		<!-- TODO put something else here? github link? -->
-	</div>
+
 </header>
 
 <style>
-	
+.logo {
+	background: var(--orange);
+	color: white;
+	padding: 0px 20px;
+	height: 100%;
+}
+.logo > a {
+	text-decoration: none;
+	color: white;
+}
+.web{
+	display: none;
+}
+.phone {
+	display: block;
+}
+.logo > a > h3 {
+	transform: rotate(-10deg);
+	margin: 0;
+	margin-top: 15px;
+	z-index: 5;
+	position: relative;
+}
+.logo::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-color: var(--orange) transparent transparent;
+    border-style: solid;
+    border-width: 35px 65px 0 0;
+    z-index: 1;
+
+}
+@media only screen and (min-width: 640px) {
+	.logo::after{
+
+    border-width: 35px 200px 0 0;
+
+}
+.web {
+	display: block;
+}
+.phone {
+	display: none;
+}
+}
+
 </style>
