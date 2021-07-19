@@ -90,6 +90,7 @@ header {
 ul {
 	display: flex;
 	list-style: none;
+	padding: 0px;
 }
 
 header nav a {

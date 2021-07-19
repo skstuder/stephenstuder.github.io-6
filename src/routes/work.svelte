@@ -118,7 +118,7 @@
 	.social:hover {
 		text-decoration: underline;
 	}
-	@media only screen and (max-width: 1070px) {
+	@media only screen and (max-width: 900px) {
 		.flex {
 			flex-direction: column;	
 		}

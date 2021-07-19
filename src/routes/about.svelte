@@ -28,9 +28,7 @@
 		<p>
 			I am a User Interface Developer specializing in JavaScript and Vue.js, currently employed by Trek Bicycle Corporation. I love the craft of building web applications and learning new ways to solve problems better and faster. 
 		</p>
-			<p>	
-			I come from a line of wood workers and in the same way they learned the ins and outs of their saws, tools, and techniques, I try to find new ways to write better software as often as possible. I have a ways to go in my journey but I try to learn something new every day. 
-		</p>
+	
 		<p>
 			In my spare time I spend time with my wife and family. I also enjoy motocross and flowboarding, a type of artificial surfing. I also love to learn new technologies off the clock, some of my areas of interest are exploring JavaScript frameworks, Jamstack solutions, UX Design, and dabbling in server side Javascript like Node and Deno. 
 		</p>
