@@ -3,6 +3,9 @@
 
 </script>
 
+<svelte:head>
+	<title>Work</title>
+</svelte:head>
 
 <div in:fly="{{ y: -50, duration: 250, delay: 300 }}"
 out:fly="{{ y: -50, duration: 250 }}" class="card flex">

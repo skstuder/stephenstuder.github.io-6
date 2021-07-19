@@ -156,9 +156,9 @@ img {
 	}
 	.big-screen-bubble-text {
 		position: absolute;
-		top: 260px;
+		top: 270px;
 		width: 150px;
-		margin-left: 20px;
+		margin-left: 30px;
 		font-size: 12px;
 	}
 	.p-5{
