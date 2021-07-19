@@ -20,7 +20,7 @@
 	--textColor: var(--black);
 	--buttonTextColor: var(--white);
 	--lineColor: var(--grey);
-	--cardBg: var(--white);
+	--cardBg: var(--darkGrey);
 	--headerBackground: var(--white);
 	--footerBackground: var(--black);
 
@@ -47,7 +47,7 @@
 	/* Positioning */
 	--containerPadding: 2.5%;
 	--headerHeight: 3rem;
-	--border-radius: 10px;
+	--border-radius: 0px;
 }
 
 /* From Typescale */
@@ -96,6 +96,8 @@ header nav a {
 	color: var(--darkGrey);
 	text-decoration: none;
 	transition: 0.3s ease-in-out color;
+	font-family: var(--headingFont);
+	font-size: var(--h4);
 }
 
 header nav a:hover {
@@ -176,8 +178,8 @@ small,
 /* End Typescale */
 
 img {
-	height: 200px;
-	width: 200px;
+	height: 300px;
+	width: 300px;
 	border-radius: 100%;
 	overflow: hidden;
 }
@@ -243,7 +245,7 @@ button.small {
 }
 
 .layout {
-	padding: calc(3rem + var(--headerHeight)) var(--containerPadding);
+	padding: calc(5rem + var(--headerHeight)) 0px;
 }
 
 .grid {
@@ -257,9 +259,11 @@ button.small {
 }
 
 .flex {
-	--justifyContent: space-between;
-	display: block;
-	justify-content: var(--justifyContent);
+	display: flex;
+	flex-direction: column;
+}
+.flex-row {
+	flex-direction: row;
 }
 
 .flex-around {
@@ -269,6 +273,7 @@ button.small {
 .flex-justify-center {
 	--justifyContent: center;
 }
+
 .flex-align-center {
 	align-items: center;
 }
@@ -282,7 +287,7 @@ button.small {
 	grid-template-columns: 33% 67%;
 	grid-gap: 20px;
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 640px) {
 	:root {
 		--baseFontSize: 112.5%;
 	}
@@ -291,9 +296,13 @@ button.small {
 	}
 	.flex {
 		display: flex;
+		flex-direction: row;
 	}
 	.split {
 		display: grid;
+	}
+	.layout {
+		padding: calc(3rem + var(--headerHeight)) 0px 0px 0px;
 	}
 }
 
@@ -307,6 +316,7 @@ button.small {
 	background: var(--cardBg);
 	box-shadow: var(--level-3);
 	border-radius: var(--border-radius);
+	color: var(--white);
 }
 
 /* First item will never have margin top */
