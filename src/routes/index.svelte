@@ -14,9 +14,10 @@
 		<div>
 			<img src="../src/stephen.png" alt="cartoon Stephen">
 			<img class="bubble big-screen-bubble" src="../src/bubble.png" alt="speech bubble">
-			<p class="bubble big-screen-bubble-text">"Someone's got a nice wide monitor"</p>
+			<p class="bubble big-screen-bubble-text">"Wide monitor, nice!"</p>
 		</div>
-		<div class="">
+		<div class="contact">
+			<h2 class="m-0 p-0">Get in Contact</h2>
 			<span class="social flex flex-row flex-align-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -96,6 +97,10 @@ h3 {
 	font-family: var(--bodyFont);
 	font-weight: bold;
 }
+.m-0 {
+	margin: 0;
+	padding: 0;
+}
 .w-100 {
 	width: 100%;
 }
@@ -114,12 +119,15 @@ img {
 .bubble {
 	display: none;
 }
-.social {
+.social a {
 	margin: 10px;
 	padding: 1px;
+	text-decoration: none;
+	color: var(--black);
 }
 .social:hover {
 	text-decoration: underline;
+
 }
 
 
