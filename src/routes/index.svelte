@@ -4,6 +4,8 @@
 
 <script>
 		import { fly } from 'svelte/transition';
+		import stephenImg from '/static/stephen.png'
+		import bubbleImg from '/static/bubble.png'
 </script>
 
 <svelte:head>
@@ -14,8 +16,8 @@
 out:fly="{{ y: -50, duration: 250 }}">
 	<div class="flex flex-align-center flex-justify-center w-100 mb-5">
 		<div>
-			<img src="../src/stephen.png" alt="cartoon Stephen">
-			<img class="bubble big-screen-bubble" src="../src/bubble.png" alt="speech bubble">
+			<img src="{stephenImg}" alt="cartoon Stephen">
+			<img class="bubble big-screen-bubble" src="{bubbleImg}" alt="speech bubble">
 			<p class="bubble big-screen-bubble-text">"Wide monitor, nice!"</p>
 		</div>
 		<div class="contact">
