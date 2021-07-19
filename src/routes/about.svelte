@@ -20,7 +20,7 @@
 
 <div class="card flex">
 	<div class="about">
-		<h1>About Stephen</h1>
+		<h1 class="heading">About Stephen</h1>
 	
 		<p>
 			Hi I am Stephen Studer.
@@ -116,6 +116,14 @@ p {
 .about {
 	flex: 2;
 }
+.heading {
+		background: var(--white);
+		color: var(--textColor);
+		padding: 10px 20px;
+		font-size: 3rem;
+		margin-bottom: 0;
+		width: fit-content;		
+	}
 .contact {
 	flex: 1;
 }
