@@ -7,7 +7,7 @@ const config = {
 		target: '#svelte',
 		adapter: adapter({
 			// default options are shown
-			pages: 'docs',
+			pages: 'build',
 			assets: 'build',
 			fallback: null
 		})
