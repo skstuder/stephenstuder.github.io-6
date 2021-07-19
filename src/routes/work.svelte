@@ -1,9 +1,11 @@
 <script>
+	import { fly } from 'svelte/transition';
 
 </script>
 
 
-<div class="card flex">
+<div in:fly="{{ y: -50, duration: 250, delay: 300 }}"
+out:fly="{{ y: -50, duration: 250 }}" class="card flex">
 	<ul class="flex flex-col work">
 		<h1 class="heading">Experience: Mid-Level</h1>
 		<li><h3>Trek Bicycle Corp</h3><span class="bg-green-400 highlight">User Interface Developer | October 2020 - Current</span></li>

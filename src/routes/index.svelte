@@ -3,13 +3,15 @@
 </script>
 
 <script>
+		import { fly } from 'svelte/transition';
 </script>
 
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
 
-<section>
+<section in:fly="{{ y: -50, duration: 250, delay: 300 }}"
+out:fly="{{ y: -50, duration: 250 }}">
 	<div class="flex flex-align-center flex-justify-center w-100 mb-5">
 		<div>
 			<img src="../src/stephen.png" alt="cartoon Stephen">

@@ -1,5 +1,7 @@
 <script context="module">
 	import { browser, dev } from '$app/env';
+	import { fly } from 'svelte/transition';
+
 
 	// we don't need any JS on this page, though we'll load
 	// it in dev so that we get hot module replacement...
@@ -18,7 +20,8 @@
 	<title>About</title>
 </svelte:head>
 
-<div class="card flex">
+<div in:fly="{{ y: -50, duration: 250, delay: 300 }}"
+	out:fly="{{ y: -50, duration: 250 }}" class="card flex">
 	<div class="about">
 		<h1 class="heading">About Stephen</h1>
 	
