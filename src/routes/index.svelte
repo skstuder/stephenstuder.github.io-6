@@ -11,9 +11,13 @@
 
 <section>
 	<div class="flex flex-align-center flex-justify-center w-100 mb-5">
-		<img src="../src/stephen.png" alt="">
+		<div>
+			<img src="../src/stephen.png" alt="cartoon Stephen">
+			<img class="bubble big-screen-bubble" src="../src/bubble.png" alt="speech bubble">
+			<p class="bubble big-screen-bubble-text">"Someone's got a nice wide monitor"</p>
+		</div>
 		<div class="">
-			<span class="flex flex-row flex-align-center">
+			<span class="social flex flex-row flex-align-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
@@ -30,9 +34,9 @@
 					<rect x="2" y="9" width="4" height="12"></rect>
 					<circle cx="4" cy="4" r="2"></circle>
 				</svg>
-				<a target="_blank" href="https://linkedin.com/in/stephenkstuder" class="break-all">- linkedin.com/in/stephenkstuder/</a>
+				<a target="_blank" href="https://linkedin.com/in/stephenkstuder">- linkedin.com/in/stephenkstuder/</a>
 			</span>
-			<span class="flex flex-row flex-align-center">
+			<span class="social flex flex-row flex-align-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
@@ -51,7 +55,7 @@
 				</svg>
 				<a target="_blank" href="https://github.com/stephenstuder">- github.com/stephenstuder</a>
 			</span>
-			<span class="flex flex-row flex-align-center">
+			<span class="social flex flex-row flex-align-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
@@ -72,7 +76,7 @@
 			</span>
 		</div>
 	</div>
-	<div class="card">
+	<div class="card p-5">
 		<h3>Front End Developer | Vue.js Specialist | Husband |
 			Father | Motocrosser | Coffee Addict | English Bulldog Dad | Flowboarder
 			| Fan of physical activity | Former Bartender | Arizona Native   </h3>
@@ -85,9 +89,7 @@
 </section>
 
 <style>
-	.fuck {
-		border: 1px solid red;
-	}
+
 h3 {
 	font-size: var(--h2);
 	word-spacing: 15px;
@@ -100,9 +102,8 @@ h3 {
 .mb-5 {
 	margin-bottom: 50px;
 }
-a {
-	text-decoration: none;
-	color: black;
+.p-5 {
+	padding: 76px;
 }
 .flex-justify-center {
 	justify-content: center;
@@ -110,9 +111,48 @@ a {
 img {
 	margin-right: 50px;
 }
+.bubble {
+	display: none;
+}
+.social {
+	margin: 10px;
+	padding: 1px;
+}
+.social:hover {
+	text-decoration: underline;
+}
+
+
 @media only screen and (max-width: 640px) {
 	img {
 		margin-right: 0px;
+	}
+
+}
+@media only screen and (min-width: 1500px) {
+	img {
+		width: 400px;
+		height: 400px;
+	}
+	.bubble {
+		display: block;
+	}
+	.big-screen-bubble {
+		transform: rotate(-20deg);
+		position: absolute;
+		top: 220px;
+		width: 190px;
+		height: 160px;
+	}
+	.big-screen-bubble-text {
+		position: absolute;
+		top: 260px;
+		width: 150px;
+		margin-left: 20px;
+		font-size: 12px;
+	}
+	.p-5{
+		padding: 54px;
 	}
 
 }
