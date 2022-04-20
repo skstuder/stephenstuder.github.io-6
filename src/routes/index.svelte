@@ -84,13 +84,7 @@
 			</span>
 		</div>
 	</div>
-	<div class="card p-5">
-		<h3>
-			Front End Developer | Vue.js Specialist | Husband | Father | Motocrosser | Coffee Addict |
-			English Bulldog Dad | Flowboarder | Fan of physical activity | Former Bartender | Arizona
-			Native
-		</h3>
-	</div>
+	<!-- Blog posts carosel -->
 </section>
 
 <style>
