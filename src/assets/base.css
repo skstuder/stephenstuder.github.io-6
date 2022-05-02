@@ -24,7 +24,7 @@
   --footerBackground: var(--black);
 
   /* Styles */
-  --line: solid 1px var(--lineColor);
+  --line: solid 4px var(--lineColor);
 
   /* Type */
   --headingFont: "Roboto Mono", monospace;
@@ -202,6 +202,8 @@ textarea {
 
 hr {
   border-top: var(--line);
+  border-left: none;
+  border-right: none;
 }
 
 button {
