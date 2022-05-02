@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400|Space+Mono:400");
-@import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap");
+
 :root {
   /* Define colors as colors */
   --green: #00ebc7;
@@ -26,7 +27,7 @@
   --line: solid 1px var(--lineColor);
 
   /* Type */
-  --headingFont: "Space Mono", monospace;
+  --headingFont: "Roboto Mono", monospace;
   --bodyFont: "Work Sans", sans-serif;
   --baseFontSize: 100%;
   --h1: 3.052rem;
