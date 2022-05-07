@@ -12,15 +12,16 @@
   --lightGrey: #f2f4f6;
   --darkGrey: #222;
   --white: #fff;
+  --darkPurp: #25253f;
   /* Define the colors intentions */
   --primary: var(--green);
   --danger: var(--red);
-  --background: var(--lightgrey);
-  --textColor: var(--black);
+  --background: var(--darkPurp);
+  --textColor: var(--white);
   --buttonTextColor: var(--white);
   --lineColor: var(--grey);
   --cardBg: var(--white);
-  --headerBackground: var(--darkBlue);
+  --headerBackground: var(--darkPurp);
   --footerBackground: var(--black);
 
   /* Styles */
@@ -167,9 +168,8 @@ small,
 /* End Typescale */
 
 img {
-  height: 200px;
-  width: 200px;
-  border-radius: 100%;
+  height: 800px;
+
   overflow: hidden;
 }
 blockquote {

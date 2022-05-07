@@ -6,9 +6,12 @@ import { RouterLink, RouterView } from "vue-router";
   <header>
     <h1 class="fake-logo">Stephen Studer</h1>
     <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/blog">Blog</RouterLink>
+      <div>
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/blog">Blog</RouterLink>
+      </div>
     </nav>
+    <p>stephenkstuder@gmail.com</p>
   </header>
   <main class="layout">
     <RouterView />

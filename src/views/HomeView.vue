@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <img src="../assets/stephen.jfif" alt="" />
+    <img src="../assets/stephen.png" alt="" />
     <h2>I am a User Interface Engineer specialized in <b>Javascript</b>.</h2>
     <p>
       Experienced in intergations with api's and services, developing user
@@ -81,9 +81,19 @@
         Vue.js, Svelte, and Node for building backend utilities, but I am always
         exploring for tools that are the best fit for each situation.
       </p>
-      <img src="../assets/stephen.jfif" alt="" />
-      <img src="../assets/stephen.jfif" alt="" />
-      <img src="../assets/stephen.jfif" alt="" />
+      <div class="flex flex-around">
+        <img
+          height="500"
+          width="500"
+          src="https://dummyimage.com/512x512.jpg"
+          alt=""
+        />
+
+        <img src="https://dummyimage.com/512x512.jpg" alt="" />
+
+        <img src="https://dummyimage.com/512x512.jpg" alt="" />
+      </div>
+      <br />
       <p>
         When I am not working I spend time with my Wife and daughter. I enjoy
         cooking, grilling, mountain biking, and am an avid fan of motocross
