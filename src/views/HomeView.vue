@@ -2,7 +2,11 @@
 
 <template>
   <main>
-    <img src="../assets/stephen.png" alt="" />
+    <div class="w-100 flex flex-justify-center flex-align-center">
+      <div class="circle flex flex-justify-center flex-align-center">
+        <img src="../assets/stephen.png" alt="" />
+      </div>
+    </div>
     <h2>I am a User Interface Engineer specialized in <b>Javascript</b>.</h2>
     <p>
       Experienced in intergations with api's and services, developing user
@@ -13,7 +17,7 @@
     <h4>Contact: stephenkstuder@gmail.com</h4>
     <br />
     <div class="flex flex-around">
-      <a href="#">
+      <a href="https://www.linkedin.com/in/stephenkstuder/" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           aria-label="LinkedIn"
@@ -31,7 +35,7 @@
           />
         </svg>
       </a>
-      <a href="#">
+      <a href="https://github.com/stephenstuder" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           aria-label="GitHub"
@@ -47,7 +51,7 @@
           />
         </svg>
       </a>
-      <a href="#">
+      <a href="https://twitter.com/StephenStuder1" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           aria-label="Twitter"
@@ -102,3 +106,13 @@
     </div>
   </main>
 </template>
+
+<style scoped>
+.circle {
+  background: rgb(2, 0, 36, 1);
+  background: linear-gradient(90deg, #25253f80, #2a456480, #29698680);
+  height: 500px;
+  width: 500px;
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+}
+</style>
