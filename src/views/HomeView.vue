@@ -14,7 +14,7 @@
     </p>
     <br />
     <hr />
-    <h4>Contact: stephenkstuder@gmail.com</h4>
+    <p>Contact: stephenkstuder@gmail.com</p>
     <br />
     <div class="flex flex-around">
       <a href="https://www.linkedin.com/in/stephenkstuder/" target="_blank">
@@ -85,18 +85,6 @@
         Vue.js, Svelte, and Node for building backend utilities, but I am always
         exploring for tools that are the best fit for each situation.
       </p>
-      <div class="flex flex-around">
-        <img
-          height="500"
-          width="500"
-          src="https://dummyimage.com/512x512.jpg"
-          alt=""
-        />
-
-        <img src="https://dummyimage.com/512x512.jpg" alt="" />
-
-        <img src="https://dummyimage.com/512x512.jpg" alt="" />
-      </div>
       <br />
       <p>
         When I am not working I spend time with my Wife and daughter. I enjoy
@@ -111,8 +99,15 @@
 .circle {
   background: rgb(2, 0, 36, 1);
   background: linear-gradient(90deg, #25253f80, #2a456480, #29698680);
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+}
+@media only screen and (min-width: 500px) {
+  .circle {
+    width: 400px;
+    height: 400px;
+  }
 }
 </style>

@@ -11,7 +11,6 @@ import { RouterLink, RouterView } from "vue-router";
         <RouterLink to="/blog">Blog</RouterLink>
       </div>
     </nav>
-    <p>stephenkstuder@gmail.com</p>
   </header>
   <main class="layout">
     <RouterView />

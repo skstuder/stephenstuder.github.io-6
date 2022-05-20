@@ -16,8 +16,8 @@
   /* Define the colors intentions */
   --primary: var(--green);
   --danger: var(--red);
-  --background: var(--darkPurp);
-  --textColor: var(--white);
+  --background: var(--white);
+  --textColor: var(--black);
   --buttonTextColor: var(--white);
   --lineColor: var(--grey);
   --cardBg: var(--white);
@@ -48,7 +48,7 @@
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
 
   /* Positioning */
-  --containerPadding: 2.5%;
+  --containerPadding: 10%;
   --headerHeight: 3rem;
   --border-radius: 10px;
 }
@@ -168,7 +168,7 @@ small,
 /* End Typescale */
 
 img {
-  height: 300px;
+  height: 250px;
 
   overflow: hidden;
 }
@@ -251,7 +251,7 @@ button.small {
 
 .flex {
   --justifyContent: space-between;
-  display: block;
+  display: flex;
   justify-content: var(--justifyContent);
 }
 
@@ -279,6 +279,9 @@ button.small {
   :root {
     --baseFontSize: 112.5%;
   }
+  img {
+    height: 350px;
+  }
   .grid {
     display: grid;
   }
@@ -287,6 +290,9 @@ button.small {
   }
   .split {
     display: grid;
+  }
+  .circle {
+    width: 1000px;
   }
 }
 
@@ -324,6 +330,17 @@ button.small {
 
 .oled {
   --black: #000;
+}
+
+pre {
+  background: black;
+  color: white;
+  display: block;
+  unicode-bidi: embed;
+  font-family: monospace;
+  white-space: pre;
+  border-radius: 10px;
+  padding: 5px 10px;
 }
 
 .theme {
