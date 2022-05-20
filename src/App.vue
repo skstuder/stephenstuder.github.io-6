@@ -4,15 +4,15 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header>
-    <h1 class="fake-logo">Stephen Studer</h1>
+    <RouterLink to="/">Stephen Studer</RouterLink>
     <nav>
       <div>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/blog">Blog</RouterLink>
       </div>
     </nav>
   </header>
-  <main class="layout">
+  <main>
     <RouterView />
   </main>
 </template>

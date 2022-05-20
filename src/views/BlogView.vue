@@ -8,8 +8,8 @@ export default {
 </script>
 
 <template>
-  <main>
+  <main class="layout">
     <h2>Blog</h2>
-    <FirstBlog />
+    <FirstBlog class="card" />
   </main>
 </template>

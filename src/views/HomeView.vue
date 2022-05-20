@@ -1,10 +1,12 @@
 <script setup></script>
 
 <template>
-  <main>
+  <main class="layout">
     <div class="w-100 flex flex-justify-center flex-align-center">
-      <div class="circle flex flex-justify-center flex-align-center">
-        <img src="../assets/stephen.png" alt="" />
+      <div class="circle background flex flex-justify-center flex-align-center">
+        <div class="circle flex flex-justify-center flex-align-center">
+          <img src="../assets/images/stephen.png" alt="" />
+        </div>
       </div>
     </div>
     <h2>I am a User Interface Engineer specialized in <b>Javascript</b>.</h2>
@@ -12,11 +14,22 @@
       Experienced in intergations with api's and services, developing user
       facing features, and implementing design systems.
     </p>
-    <br />
-    <hr />
+    <h3>Latest blog posts</h3>
+    <ul>
+      <li>
+        <a href="#"> 8 Tips For Learning a New Codebase Fast </a>
+      </li>
+      <li>
+        <a href="#"> Unit Testing Principles </a>
+      </li>
+      <li>
+        <a class="link" href="#"> Tips for clean code</a>
+      </li>
+    </ul>
+    <h3>Contact</h3>
     <p>Contact: stephenkstuder@gmail.com</p>
     <br />
-    <div class="flex flex-around">
+    <div class="flex flex-between icons">
       <a href="https://www.linkedin.com/in/stephenkstuder/" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -69,29 +82,8 @@
       </a>
     </div>
     <br />
-    <hr />
     <br />
     <br />
-    <div class="card">
-      <h2>About me</h2>
-      <p>
-        I have been working on front end projects since 2019, my interest lies
-        in the
-        <a
-          href="https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/#:~:text=Back%2Dof%2Dthe%2Dfront%2Dend%20developers,-A%20definition%3A%20A&text=Writing%20application%20business%20logic%20to,the%20application%20to%20function%20properly."
-          >"back of the frontend"</a
-        >
-        and with various JavaScript frameworks. My favorites currently are
-        Vue.js, Svelte, and Node for building backend utilities, but I am always
-        exploring for tools that are the best fit for each situation.
-      </p>
-      <br />
-      <p>
-        When I am not working I spend time with my Wife and daughter. I enjoy
-        cooking, grilling, mountain biking, and am an avid fan of motocross
-        racing.
-      </p>
-    </div>
   </main>
 </template>
 
@@ -104,10 +96,28 @@
   overflow: hidden;
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
 }
-@media only screen and (min-width: 500px) {
+.background {
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+  height: 320px;
+  width: 320px;
+}
+.icons {
+  max-width: 300px;
+}
+img {
+  height: 250px;
+}
+@media only screen and (min-width: 630px) {
   .circle {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
+  }
+  .background {
+    height: 420px;
+    width: 420px;
+  }
+  img {
+    height: 320px;
   }
 }
 </style>

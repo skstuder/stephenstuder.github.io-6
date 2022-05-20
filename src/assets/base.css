@@ -16,13 +16,14 @@
   /* Define the colors intentions */
   --primary: var(--green);
   --danger: var(--red);
-  --background: var(--white);
+  --background: var(--lightGrey);
   --textColor: var(--black);
   --buttonTextColor: var(--white);
   --lineColor: var(--grey);
   --cardBg: var(--white);
   --headerBackground: var(--darkPurp);
   --footerBackground: var(--black);
+  --buttonColor: var(--primary);
 
   /* Styles */
   --line: solid 4px var(--lineColor);
@@ -48,7 +49,7 @@
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
 
   /* Positioning */
-  --containerPadding: 10%;
+  --containerPadding: 2.5%;
   --headerHeight: 3rem;
   --border-radius: 10px;
 }
@@ -89,7 +90,7 @@ header {
   padding: 0 var(--containerPadding);
 }
 
-header nav a {
+header a {
   color: var(--white);
   text-decoration: none;
 }
@@ -117,11 +118,11 @@ footer p {
 
 p {
   margin-bottom: 1rem;
-  max-width: 40em;
 }
 
 p a,
-blockquote a {
+blockquote a,
+ul li a {
   color: var(--textColor);
   text-decoration: none;
   border-bottom: solid 2px var(--primary);
@@ -278,9 +279,7 @@ button.small {
 @media only screen and (min-width: 500px) {
   :root {
     --baseFontSize: 112.5%;
-  }
-  img {
-    height: 350px;
+    --containerPadding: 15%;
   }
   .grid {
     display: grid;
