@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <main class="layout">
+  <main>
     <div class="w-100 flex flex-justify-center flex-align-center">
       <div class="circle background flex flex-justify-center flex-align-center">
         <div class="circle flex flex-justify-center flex-align-center">
@@ -17,7 +17,7 @@
     <h3>Latest blog posts</h3>
     <ul>
       <li>
-        <a href="#"> 8 Tips For Learning a New Codebase Fast </a>
+        <a href="/blog/example-blog"> Example Blog </a>
       </li>
       <li>
         <a href="#"> Unit Testing Principles </a>

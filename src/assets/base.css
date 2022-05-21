@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400|Space+Mono:400");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 :root {
   /* Define colors as colors */
   --green: #00ebc7;
@@ -12,6 +12,7 @@
   --lightGrey: #f2f4f6;
   --darkGrey: #222;
   --white: #fff;
+  --offWhite: #f4f0ec;
   --darkPurp: #25253f;
   /* Define the colors intentions */
   --primary: var(--green);
@@ -29,11 +30,11 @@
   --line: solid 4px var(--lineColor);
 
   /* Type */
-  --headingFont: "Roboto Mono", monospace;
+  --headingFont: "Source Sans Pro", monospace;
   --bodyFont: "Work Sans", sans-serif;
   --baseFontSize: 100%;
-  --h1: 3.052rem;
-  --h2: 2.441rem;
+  --h1: 4rem;
+  --h2: 3.441rem;
   --h3: 1.953rem;
   --h4: 1.563rem;
   --h5: 1.25rem;
@@ -87,7 +88,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 var(--containerPadding);
+  padding: 0 var(--headerPadding);
 }
 
 header a {
@@ -207,14 +208,15 @@ hr {
   border-right: none;
 }
 
-button {
+button,
+.tag {
   --buttonColor: var(--primary);
   appearance: none;
   color: var(--buttonTextColor);
   background: var(--buttonColor);
   border: none;
   border-radius: 10px;
-  padding: 5px 25px;
+  padding: 5px 15px;
   box-shadow: var(--level-1);
   transition: 0.3s ease-in-out box-shadow;
 }
@@ -280,6 +282,7 @@ button.small {
   :root {
     --baseFontSize: 112.5%;
     --containerPadding: 15%;
+    --headerPadding: 5%;
   }
   .grid {
     display: grid;
@@ -389,6 +392,7 @@ pre {
 
   /* Positioning */
   --containerPadding: 2.5%;
+  --headerPadding: 2.5%;
   --headerHeight: 4rem;
   --border-radius: 25px;
 }

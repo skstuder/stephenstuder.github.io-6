@@ -10,7 +10,9 @@ export default defineConfig({
     vue({
       include: [/\.vue$/, /\.md$/],
     }),
-    Markdown(),
+    Markdown({
+      headEnabled: true,
+    }),
   ],
   resolve: {
     alias: {

@@ -1,6 +1,13 @@
-# Colli Paphius
+---
+title: Example Blog
+meta:
+  - name: description for an example blog
+    content: content for an example blog
+---
 
-## Loci tum
+## Colli Paphius
+
+# Loci tum
 
 Lorem markdownum manus canebat **altera**, Glauci vitat canum Pharonque! Ferarum
 hunc Latia querno te domus: terga, mea vultus.
@@ -12,7 +19,7 @@ hunc Latia querno te domus: terga, mea vultus.
 - Sonabunt partibus refert spumas facit
 - Qualia vitae posses
 
-## Diversa et instar habitandae vosne ut extendi
+# Diversa et instar habitandae vosne ut extendi
 
 Thalamis sustinet villisque umerique quae reminiscitur bella, diu sistere litus
 Phocis: dum. Mensam paulatim _haec_, est nec qui spretis: **undis** vestes
@@ -25,7 +32,7 @@ erigor vasta!
 2. Sic tamen timor vehi
 3. Potentia credensque precor lacertis Philyreia pennis praemia
 
-## Dextra ut
+# Dextra ut
 
 Sinis utque saxo: hoc si mercede matri fecerit poplite flet pastor crescere
 saxis. Ego inguine nomen praebebat plurima Ante committere et tempora lumina

@@ -1,15 +1,14 @@
 <script>
-import FirstBlog from "../assets/blogs/example-blog.md";
+import ExampleBlog from "../assets/blogs/example-blog.md";
 export default {
   components: {
-    FirstBlog,
+    ExampleBlog,
   },
 };
 </script>
 
 <template>
-  <main class="layout">
-    <h2>Blog</h2>
-    <FirstBlog class="card" />
+  <main>
+    <ExampleBlog v-if="$route.params.title === 'example-blog'" />
   </main>
 </template>
