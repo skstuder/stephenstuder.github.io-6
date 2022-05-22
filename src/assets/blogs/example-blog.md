@@ -1,13 +1,27 @@
 ---
-title: Example Blog
+title: Tips for learning a large new codebase quickly
 meta:
-  - name: description for an example blog
-    content: content for an example blog
+  - name: How to learn a new large codebase quickly
+    content: Learning a new codebase can be intimidating, esspecially as a new developer. But these tips will help you tackle your new project assignment and contribute quickly
 ---
 
-## Colli Paphius
+<img src="../images/files.jpg" />
 
-# Loci tum
+# Tips for learning a large new codebase quickly
+
+5/21/2022
+
+I vividly remember my first day as a working developer. After running through the setup routine I finally had my system up and running and was happy. That is until I looked at the contents of the project I was working on. An endless tree of nested files, backend, frontend, config files, utilties, the result of a team for 200 working daily for years. How the heck would I be able to jump and an contribute to this?
+
+### Take it all in
+
+### Look at the most recent commits or pull requests
+
+### Use the git-blame plugin
+
+### Ask for an overview from a vet on the team
+
+### Give it time
 
 Lorem markdownum manus canebat **altera**, Glauci vitat canum Pharonque! Ferarum
 hunc Latia querno te domus: terga, mea vultus.
