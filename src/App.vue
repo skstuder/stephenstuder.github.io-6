@@ -109,7 +109,7 @@ export default {
 }
 
 .drop-menu {
-  height: 170px;
+  height: fit-content;
   width: 100vw;
   margin-top: var(--headerHeight);
   background: var(--headerBackground);
