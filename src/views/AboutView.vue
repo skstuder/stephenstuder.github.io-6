@@ -2,11 +2,11 @@
 // If you are using PurgeCSS, make sure to whitelist the carousel CSS classes
 import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Navigation } from "vue3-carousel";
-import family from "../assets/images/family.avif";
-import wedding from "../assets/images/wife.avif";
-import mtb from "../assets/images/mtb.avif";
-import surfing from "../assets/images/surfing.avif";
-import moto from "../assets/images/moto.avif";
+import family from "../assets/images/family.jpg";
+import wedding from "../assets/images/wife.jpg";
+import mtb from "../assets/images/mtb.jpg";
+import surfing from "../assets/images/surfing.jpeg";
+import moto from "../assets/images/moto.jpg";
 
 const IMAGES = [
   {

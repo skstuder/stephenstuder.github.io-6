@@ -5,7 +5,7 @@ meta:
     content: Learning a new codebase can be intimidating, esspecially as a new developer. But these tips will help you tackle your new project assignment and contribute quickly
 ---
 
-<img src="../images/files.avif" style="object-fit: cover; object-position: 0% 0%; height: 350px; width: 100%" />
+<img src="../images/files.jpg" style="object-fit: cover; object-position: 0% 0%; height: 350px; width: 100%" />
 
 # Tips for learning a large new codebase quickly
 
