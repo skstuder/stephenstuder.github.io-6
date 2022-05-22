@@ -90,7 +90,7 @@ export default {
       <br />
       <carousel :items-to-show="display">
         <slide v-for="image in images" :key="image">
-          <img :src="image.path" :alt="image.alt" />
+          <img :src="getImageUrl(image.path)" :alt="image.alt" />
         </slide>
 
         <template #addons>
