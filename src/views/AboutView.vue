@@ -2,27 +2,32 @@
 // If you are using PurgeCSS, make sure to whitelist the carousel CSS classes
 import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Navigation } from "vue3-carousel";
+import family from "../assets/images/family.avif";
+import wedding from "../assets/images/wife.avif";
+import mtb from "../assets/images/mtb.avif";
+import surfing from "../assets/images/surfing.avif";
+import moto from "../assets/images/moto.avif";
 
 const IMAGES = [
   {
     alt: "family photo",
-    path: "../assets/images/family.avif",
+    path: family,
   },
   {
     alt: "wedding photo",
-    path: "../assets/images/wife.avif",
+    path: wedding,
   },
   {
     alt: "friends mountain biking",
-    path: "../assets/images/mtb.avif",
+    path: mtb,
   },
   {
     alt: "friends surfing",
-    path: "../assets/images/surfing.avif",
+    path: surfing,
   },
   {
     alt: "father and son riding dirtbikes",
-    path: "../assets/images/moto.avif",
+    path: moto,
   },
 ];
 export default {
@@ -40,9 +45,6 @@ export default {
   },
 
   methods: {
-    getImageUrl(name) {
-      return new URL(`../assets/${name}`, import.meta.url).href;
-    },
     onResize() {
       if (window.innerWidth > 2000) {
         this.display = 3.5;
@@ -88,9 +90,9 @@ export default {
         motocross racing.
       </p>
       <br />
-      <carousel :items-to-show="display">
+      <carousel snap-align="start" :items-to-show="display">
         <slide v-for="image in images" :key="image">
-          <img :src="getImageUrl(image.path)" :alt="image.alt" />
+          <img :src="image.path" :alt="image.alt" />
         </slide>
 
         <template #addons>
