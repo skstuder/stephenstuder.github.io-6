@@ -53,6 +53,7 @@
   --containerPadding: 2.5%;
   --headerHeight: 3rem;
   --border-radius: 10px;
+  --headerPadding: 2.5%;
 }
 
 /* From Typescale */
@@ -92,6 +93,10 @@ header {
 }
 
 header a {
+  color: var(--white);
+  text-decoration: none;
+}
+a {
   color: var(--white);
   text-decoration: none;
 }
@@ -392,7 +397,6 @@ pre {
 
   /* Positioning */
   --containerPadding: 2.5%;
-  --headerPadding: 2.5%;
   --headerHeight: 4rem;
   --border-radius: 25px;
 }
