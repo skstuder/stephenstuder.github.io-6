@@ -17,13 +17,9 @@
     <h3>Latest blog posts</h3>
     <ul>
       <li>
-        <a href="/blog/example-blog"> Example Blog </a>
-      </li>
-      <li>
-        <a href="#"> Unit Testing Principles </a>
-      </li>
-      <li>
-        <a class="link" href="#"> Tips for clean code</a>
+        <a href="/blog/tips-for-learning-a-large-new-codebase-quickly">
+          Tips for learning a large new codebase quickly
+        </a>
       </li>
     </ul>
     <h3>Contact</h3>

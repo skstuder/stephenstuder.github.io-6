@@ -4,13 +4,13 @@
   <main>
     <h2>Blog</h2>
     <p></p>
-    <a href="/blog/example-blog">
+    <a href="/blog/tips-for-learning-a-large-new-codebase-quickly">
       <div class="card">
-        <h3>Example Blog</h3>
+        <h3>Tips for learning a large new codebase quickly</h3>
         <span class="tag">Web Dev</span>
         <p>
-          Lorem markdownum manus canebat **altera**, Glauci vitat canum
-          Pharonque! Ferarum hunc Latia querno te domus: terga, mea vultus.
+          I vividly remember my first day as a working developer. After running
+          through the setup routine I finally had my system up and running....
         </p>
       </div>
     </a>

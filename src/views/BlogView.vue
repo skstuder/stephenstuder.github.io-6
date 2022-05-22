@@ -1,14 +1,18 @@
 <script>
-import ExampleBlog from "../assets/blogs/example-blog.md";
+import BlogOne from "../assets/blogs/tips-for-learning-a-large-new-codebase-quickly.md";
 export default {
   components: {
-    ExampleBlog,
+    BlogOne,
   },
 };
 </script>
 
 <template>
   <main>
-    <ExampleBlog v-if="$route.params.title === 'example-blog'" />
+    <BlogOne
+      v-if="
+        $route.params.title === 'tips-for-learning-a-large-new-codebase-quickly'
+      "
+    />
   </main>
 </template>
