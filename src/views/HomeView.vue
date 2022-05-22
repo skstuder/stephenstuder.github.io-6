@@ -5,7 +5,7 @@
     <div class="w-100 flex flex-justify-center flex-align-center">
       <div class="circle background flex flex-justify-center flex-align-center">
         <div class="circle flex flex-justify-center flex-align-center">
-          <img src="../assets/images/stephen.png" alt="" />
+          <img src="../assets/images/stephen.avif" alt="" />
         </div>
       </div>
     </div>

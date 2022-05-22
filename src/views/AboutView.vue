@@ -6,23 +6,23 @@ import { Carousel, Slide, Navigation } from "vue3-carousel";
 const IMAGES = [
   {
     alt: "family photo",
-    path: "../assets/images/family.jpg",
+    path: "../assets/images/family.avif",
   },
   {
     alt: "wedding photo",
-    path: "../assets/images/wife.jpg",
+    path: "../assets/images/wife.avif",
   },
   {
     alt: "friends mountain biking",
-    path: "../assets/images/mtb.jpg",
+    path: "../assets/images/mtb.avif",
   },
   {
     alt: "friends surfing",
-    path: "../assets/images/surfing.jpeg",
+    path: "../assets/images/surfing.avif",
   },
   {
     alt: "father and son riding dirtbikes",
-    path: "../assets/images/moto.jpg",
+    path: "../assets/images/moto.avif",
   },
 ];
 export default {

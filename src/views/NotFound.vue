@@ -7,7 +7,7 @@
     <br />
     <br />
     <div>
-      <img src="../assets/images/sad-baby.jpg" alt="" />
+      <img src="../assets/images/sad-baby.avif" alt="" />
     </div>
   </div>
 </template>

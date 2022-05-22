@@ -114,6 +114,7 @@ export default {
   margin-top: var(--headerHeight);
   background: var(--headerBackground);
   position: fixed;
+  z-index: 1;
 }
 
 .drop-menu-item {
