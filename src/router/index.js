@@ -33,6 +33,8 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/BlogView.vue"),
     },
+    { path: "/404", component: () => import("../views/NotFound.vue") },
+    { path: "/:pathMatch(.*)*", redirect: "/404" },
   ],
 });
 

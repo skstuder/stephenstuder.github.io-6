@@ -71,9 +71,11 @@ export default {
     </div>
   </transition>
   <main class="layout">
-    <transition name="scale" mode="out-in">
-      <RouterView />
-    </transition>
+    <router-view v-slot="{ Component }">
+      <transition name="scale">
+        <component :is="Component" />
+      </transition>
+    </router-view>
   </main>
 </template>
 
