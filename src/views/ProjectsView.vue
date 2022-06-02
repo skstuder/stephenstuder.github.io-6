@@ -39,7 +39,7 @@
     <h2>Oliver CSS</h2>
     <p>
       Oliver CSS is a classless css starter that I use for all my personal
-      project. It is setup to allow for quick customization via css variables
+      projects. It is setup to allow for quick customization via css variables
       and is responsive.
     </p>
     <a href="https://github.com/stephenstuder/oliver-css" target="_blank">
