@@ -9,7 +9,10 @@
         </div>
       </div>
     </div>
-    <h2>I am a User Interface Engineer specialized in <b>Javascript</b>.</h2>
+    <h2>
+      I am a User Interface Engineer specialized in <b>Javascript</b> and
+      <b>Vue.js</b>.
+    </h2>
     <p>
       Experienced in intergations with api's and services, developing user
       facing features, and implementing design systems.
