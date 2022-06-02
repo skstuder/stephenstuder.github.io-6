@@ -15,9 +15,24 @@
         <button>Code</button>
       </a>
       <a href="https://vue-todos-beta.vercel.app/" target="_blank">
-        <button>Demo</button>
+        <button>Site</button>
       </a>
     </div>
+  </div>
+  <br />
+  <div>
+    <h2>Pulp Fantasy Helper</h2>
+    <p>
+      This project has 300 returning users, it is used to simplify the points
+      process for pulp motocross fantasy. It is written in Vue.js, Nuxt, and
+      with tailwind. Will be getting a vue 3 conversion and facelift shortly.
+    </p>
+    <a href="https://github.com/stephenstuder/fantasy-analysizer">
+      <button>Code</button>
+    </a>
+    <a href="https://pulpfantasypointpotiental.netlify.app/">
+      <button>Site</button>
+    </a>
   </div>
   <br />
   <div>
@@ -31,18 +46,6 @@
       <button>Code</button>
     </a>
   </div>
-  <br />
-  <!-- <div>
-    <h2>Node Email Template Generator</h2>
-    <p>
-      Node project that allows a user to create email templates via Vue.js. It
-      uses Vue Server Renderer and MJML to convert vue code into email supported
-      html.
-    </p>
-    <a href="">
-      <button>Code</button>
-    </a>
-  </div> -->
 </template>
 
 <style scoped>
