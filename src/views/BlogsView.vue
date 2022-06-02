@@ -22,4 +22,9 @@ a {
   text-decoration: none;
   color: var(--black);
 }
+.tag {
+  display: inline-block;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
 </style>

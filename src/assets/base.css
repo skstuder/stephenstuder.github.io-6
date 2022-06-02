@@ -19,7 +19,7 @@
   --danger: var(--red);
   --background: var(--lightGrey);
   --textColor: var(--black);
-  --buttonTextColor: var(--white);
+  --buttonTextColor: var(--black);
   --lineColor: var(--grey);
   --cardBg: var(--white);
   --headerBackground: var(--darkPurp);
