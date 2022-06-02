@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <h2>Vue todo's and pomodoro timer</h2>
+      <h2>Vue Todo's and Pomodoro Timer</h2>
       <p>
         This project started as my first vue project and has gone through
         several iterations. It was converted from a code tutorial, to something
