@@ -31,6 +31,7 @@ export default {
     <nav>
       <div>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/projects">Projects</RouterLink>
         <RouterLink to="/blogs">Blog</RouterLink>
       </div>
     </nav>
@@ -61,6 +62,13 @@ export default {
         class="drop-menu-item"
         to="/about"
         >About</RouterLink
+      >
+
+      <RouterLink
+        @click="toggleMenu = !toggleMenu"
+        class="drop-menu-item"
+        to="/projects"
+        >Projects</RouterLink
       >
       <RouterLink
         @click="toggleMenu = !toggleMenu"
