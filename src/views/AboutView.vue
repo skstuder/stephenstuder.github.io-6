@@ -1,69 +1,7 @@
 <script>
-// If you are using PurgeCSS, make sure to whitelist the carousel CSS classes
-import "vue3-carousel/dist/carousel.css";
-import { Carousel, Slide, Navigation } from "vue3-carousel";
-import family from "../assets/images/family.jpg";
-import wedding from "../assets/images/wife.jpg";
-import mtb from "../assets/images/mtb.jpg";
-import surfing from "../assets/images/surfing.jpeg";
-import moto from "../assets/images/moto.jpg";
 
-const IMAGES = [
-  {
-    alt: "family photo",
-    path: family,
-  },
-  {
-    alt: "wedding photo",
-    path: wedding,
-  },
-  {
-    alt: "friends mountain biking",
-    path: mtb,
-  },
-  {
-    alt: "friends surfing",
-    path: surfing,
-  },
-  {
-    alt: "father and son riding dirtbikes",
-    path: moto,
-  },
-];
 export default {
-  name: "App",
-  components: {
-    Carousel,
-    Slide,
-    Navigation,
-  },
-  data() {
-    return {
-      images: IMAGES,
-      display: 3.5,
-    };
-  },
-
-  methods: {
-    onResize() {
-      if (window.innerWidth > 2000) {
-        this.display = 3.5;
-      } else if (window.innerWidth > 1200) {
-        this.display = 2.5;
-      } else if (window.innerWidth > 900) {
-        this.display = 2;
-      } else {
-        this.display = 1;
-      }
-    },
-  },
-  mounted() {
-    this.onResize();
-    window.addEventListener("resize", this.onResize);
-  },
-  beforeUnmount() {
-    window.removeEventListener("resize", this.onResize);
-  },
+  name: "AboutView",
 };
 </script>
 
@@ -71,44 +9,30 @@ export default {
   <main>
     <div>
       <h2>About me</h2>
+      <h4>My Career So Far</h4>
       <p>
-        I have been working on front end teams since 2019, my interest lies in
-        the
-        <a
-          href="https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/#:~:text=Back%2Dof%2Dthe%2Dfront%2Dend%20developers,-A%20definition%3A%20A&text=Writing%20application%20business%20logic%20to,the%20application%20to%20function%20properly."
-          >"back of the frontend"</a
-        >
-        and with various JavaScript frameworks. My favorites currently are
-        Vue.js, Svelte, and Node for building backend utilities, but I am always
-        exploring for tools that are the best fit for each situation. Each
-        unique problem is an opportunity to learn something new and I am always
-        excited for the next challenge.
+       I have always had a passion for figuring difficult things out and improving. That passion ultimately led me down the path of becoming a software developer where fortunately
+       there is no shortage of challenges. JavaScript has been my weapon of choice, I've written a lot of code for 8-9 figure companies, working on various e-commerce platforms, big data tools, pattern 
+       libraries. 
+      </p>
+      <h4>How I Think About Software</h4>
+      <p>
+       My thoughts around software center around collaboration. I try to write the most simple, clean and extendible code possible. I always write for 
+       the next person working on it and have cycled through the software development lifecycle enough times now to understand the value of keeping
+       code easy to read and easy to change.
+      </p>
+      <h4>Outside Of Work</h4>
+      <p>First and foremost, I am a dad and husband, the rest of the things in life are secondary to me. My love for optimizing has definitely followed me into my 
+        personal life where I enjoy taking in books, podcasts, weight lifting, finance and investing, and cooking. I also have a passion for teaching and enjoy helping others through 
+        tutoring and mentoring. 
       </p>
       <p>
-        When I am not working I spend time with my wife and daughter. I enjoy
-        cooking, mountain biking, going to the gym, and am an avid fan of
-        motocross racing.
+       <a target="_blank" href="https://www.goodreads.com/list/show/182556.Stephen_Studer_Top_Reads">Favorite Books List </a>
       </p>
-      <br />
-      <carousel snap-align="start" :items-to-show="display">
-        <slide v-for="image in images" :key="image">
-          <img :src="image.path" :alt="image.alt" />
-        </slide>
 
-        <template #addons>
-          <navigation />
-        </template>
-      </carousel>
     </div>
   </main>
 </template>
 <style>
-:root {
-  --vc-nav-background-color: var(--buttonColor);
-  --vc-pgn-background-color: var(--buttonColor);
-  --vc-pgn-active-color: var(--darkPurp);
-}
-img {
-  height: 350px;
-}
+
 </style>

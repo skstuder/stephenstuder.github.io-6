@@ -118,23 +118,22 @@ export default {
 
 .drop-menu {
   height: fit-content;
-  width: 100vw;
+  font-family: var(--headingFont);
+  width: 55vw;
   margin-top: var(--headerHeight);
-  background: var(--headerBackground);
+  background: #53526D;
   position: fixed;
   z-index: 1;
+  border-radius: 10px;
+  right: 0;
 }
 
 .drop-menu-item {
   text-align: center;
   padding: 10px;
-  border-top: white solid 0.5px;
   color: var(--offWhite);
 }
 
-.drop-menu-item:last-child {
-  border-bottom: white solid 0.5px;
-}
 
 #nav-icon3 {
   width: 30px;
