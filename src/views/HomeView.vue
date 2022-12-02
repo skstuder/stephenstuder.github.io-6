@@ -2,8 +2,8 @@
 
 <template>
   <main>
-    <div class="flex flex-align-center flex-justify-center">
-      <div class="flex-one">
+    <div class="block-flex flex-align-center flex-justify-center">
+      <div class="flex-one flex flex-align-center flex-justify-center">
         <img src="../assets/images/stephen.png" alt="">
       </div>
     <div class="flex-two">
@@ -47,13 +47,13 @@
 img {
   object-fit: cover;
 }
-.flex {
+.block-flex {
   display: block;
 }
 
 @media only screen and (min-width: 900px) {
 
-  .flex {
+  .block-flex {
   display: flex;
 }
 
