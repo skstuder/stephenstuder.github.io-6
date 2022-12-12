@@ -32,7 +32,7 @@ I am very fortunate to have a career in software development be my perfect caree
 ### Can you communicate your ideas? 
 
 - Can you explain to a child how something complex works in a way they can grasp? 
-- Are you comfortable describing a problem to a group and get asked questions about it?
+- Are you comfortable describing a problem to a group and getting asked questions about it?
 
 ### Do you like to make things? 
 
@@ -59,7 +59,7 @@ I am very fortunate to have a career in software development be my perfect caree
 - Are you drawn by a constant desire to figure stuff out? 
 - Do you want to make the perfect margarita for a party rather than a mix? 
 - Does learning how to decide what investments to choose in your 401k excite you? 
-- There is no shortage of learning in this career path. If you aren't excited to check out new technologies, figure out how you can write your software better, learn new patterns, to read opinion blog posts you will fall behind. This industry moves, and you have to keep up. 
+- There is no shortage of learning in this career path. If you aren't excited to check out new technologies, figure out how you can write your software better, learn new patterns, to read blog posts you will fall behind. This industry moves, and you have to keep up. 
 
 There's a start! If you made it this far we can say you are curious which is an excellent trait for front-end developers. Keep going! Read blog posts, look up courses, consider a boot camp, and build something! 
 
