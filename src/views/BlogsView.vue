@@ -9,8 +9,7 @@
         <h3>Tips for learning a large new codebase quickly</h3>
         <span class="tag">Web Dev</span>
         <p>
-          I vividly remember my first day as a working developer. After running
-          through the setup routine I finally had my system up and running....
+          I remember my first day as a working developer and the shock that came with the scale....
         </p>
       </div>
     </a>
