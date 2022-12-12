@@ -1,10 +1,12 @@
 <script>
 import BlogOne from "../assets/blogs/tips-for-learning-a-large-new-codebase-quickly.md";
 import BlogTwo from "../assets/blogs/should-i-become-a-front-end-developer.md";
+import NotFound from '../views/NotFound.vue';
 export default {
   components: {
     BlogOne,
     BlogTwo,
+    NotFound
   },
 };
 </script>
@@ -17,9 +19,10 @@ export default {
       "
     />
     <BlogTwo
-      v-if="
+      v-else-if="
         $route.params.title === 'should-i-become-a-front-end-developer'
       "
     />
+    <NotFound v-else />
   </main>
 </template>
