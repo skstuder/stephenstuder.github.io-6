@@ -25,7 +25,7 @@ I am very fortunate to have a career in software development be my perfect caree
 ### Are you open to criticism? 
 
 - If I asked you a question and you didn't know the answer how would you respond? 
-- In software engineering, your work gets torn to shreds daily. You cannot ever know it all, it's not possible. Can your ego handle this? 
+- In software engineering, your work gets torn to shreds daily. You will never know it all, it's not possible. Can your ego handle this? 
 - Do you love getting told how you could do better? Do you get excited when someone who knows more than you gives you advice? 
 - I get excited when my teammates find ways to do things better in my code. Because I become better as a result of learning where I fell short. There is always someone smarter than you and the structure of software teams will surround you with these people. If you try to pretend you know it all they will sniff you out a mile away. Learn from them.
 
@@ -36,7 +36,7 @@ I am very fortunate to have a career in software development be my perfect caree
 
 ### Do you like to make things? 
 
-- Exercise: in youtube search 'HTML CSS website for beginners. Follow step by step making an example project. Then once the tutorial is over, change the project entirely. Add your own sections, styles, pictures, and layout. Make it indistinguishable from the example project. Break it. Fix it. Was this fun for you? It is extremely fun for web developers, so be honest with yourself.
+- Exercise: in youtube search 'HTML CSS website for beginners. Follow step by step making an example project. Then once the tutorial is over, change the project entirely. Add your own sections, styles, pictures, and layout. Make it entirely different from the example project. Break it. Fix it. Was this fun for you? It is extremely fun for web developers, so be honest with yourself.
 
 ### Can you handle constant change? 
 
