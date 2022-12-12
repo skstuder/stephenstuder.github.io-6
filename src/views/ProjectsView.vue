@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="small"><small>*Honestly, I don't really work on personal projects. Work keeps me really occupied, when I have spare time I prefer to read blog posts or books about development for ideas I can use at work. But here are a few projects I have done in the past. </small></p>
+    <p class="small"><small>* Honestly, I don't really work on personal projects. Work keeps me very occupied. When I have spare time I prefer to read blog posts or books about development for ideas I can use at work. But below are a few projects I have done in the past.  </small></p>
     <div>
       <h2>Vue Todo's and Pomodoro Timer</h2>
       <p>
