@@ -9,7 +9,7 @@ meta:
 
 ## For Beginners: Should I become a front-end developer?
 
-Today is a good day, I am sitting in our home office sipping on espresso, solving problems, getting paid well, and with my amazing family in the next room. This career is the best, and the benefits of being a developer are well known making it a sought after path. But it's important to not fool yourself when choosing a career and deciding if it is right for you. The rose colored glasses can fool you. You will be up against passionate people who live for the challenges at hand, they get energy from the work. It's critical to align your interests with a career that fuels you. 
+Today is a good day, I am sitting in our home office sipping on espresso, solving problems, getting paid well, and with my amazing family in the next room over. This career is the best, and the benefits of being a developer are well known, making it a sought after path. But it's important to not fool yourself when choosing a career and deciding if it is right for you. The rose colored glasses can fool you. You will be up against passionate people who live for the challenges at hand, they get energy from the work. It's critical to align your interests with a career that fuels you. 
 
 I am very fortunate to have a career in software development be my perfect career match, my cupid's arrow. I wake up ready to solve problems and learn, I am charged up each day. Sometimes I have a hard time stopping my work. If someone asks me if this career is right for them, a lot of things cross my mind. Below let's go over some of those things and see if this career is right for you. My questions to you:
 
