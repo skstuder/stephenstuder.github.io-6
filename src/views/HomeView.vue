@@ -18,7 +18,7 @@
     <h3>Latest blog posts</h3>
     <ul>
       <li>
-        <a href="/blog/tips-for-learning-a-large-new-codebase-quickly">
+        <a href="/tips-for-learning-a-large-new-codebase-quickly">
           Tips for learning a large new codebase quickly
         </a>
       </li>

@@ -4,7 +4,7 @@
   <main>
     <h2>Blog</h2>
     <p></p>
-    <a href="/blog/tips-for-learning-a-large-new-codebase-quickly">
+    <a href="/tips-for-learning-a-large-new-codebase-quickly">
       <div class="card">
         <h3>Tips for learning a large new codebase quickly</h3>
         <span class="tag">Web Dev</span>
