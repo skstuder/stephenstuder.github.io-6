@@ -18,8 +18,13 @@
     <h3>Latest blog posts</h3>
     <ul>
       <li>
+        <a href="/should-i-become-a-front-end-developer">
+          For Beginners: Should I Become a Front End Developer
+        </a>
+      </li>
+      <li>
         <a href="/tips-for-learning-a-large-new-codebase-quickly">
-          Tips for learning a large new codebase quickly
+          Tips For Learning a Large New Codebase Quickly
         </a>
       </li>
     </ul>
