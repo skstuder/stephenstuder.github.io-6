@@ -1,9 +1,14 @@
 <script>
-	import BlogOne from '../../../blogs/tips-for-learning-a-large-new-codebase-quickly.md';
-
+	import SvelteMarkdown from 'svelte-markdown'
 	export let data;
+	const source = data.blogs[0].bio;
 </script>
 
-{#if data.slug === 'tips-for-learning-a-large-new-codebase-quickly'}
-	<BlogOne />
-{/if}
+
+  {#each data.blogs as blog}
+  <SvelteMarkdown {source} />
+  {/each}
+
+
+
+
