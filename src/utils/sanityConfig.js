@@ -1,12 +1,11 @@
-import {createClient} from "@sanity/client";
-import { PUBLIC_PROJECT_ID, PUBLIC_API_VERSION } from '$env/static/public';
-
+import { createClient } from '@sanity/client';
+import { PROJECT_ID, API_VERSION } from './env.js';
 
 const client = createClient({
-    projectId: PUBLIC_PROJECT_ID,
-    dataset: "production",
-    apiVersion: PUBLIC_API_VERSION,
-    useCdn: false
-  });
+	projectId: PROJECT_ID,
+	dataset: 'production',
+	apiVersion: API_VERSION,
+	useCdn: false
+});
 
-  export default client
+export default client;
