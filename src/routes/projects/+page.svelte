@@ -43,7 +43,7 @@
 </div>
 <br />
 <div>
-	<h2>Pulp Fantasy Helper</h2>
+	<h4>Pulp Fantasy Helper</h4>
 	<p>
 		This project has 300 returning users, it is used to simplify the points process for pulp
 		motocross fantasy. It is written in Vue.js, Nuxt, and with tailwind.
@@ -57,7 +57,7 @@
 </div>
 <br />
 <div>
-	<h2>Mentorship</h2>
+	<h4>Mentorship</h4>
 	<p>
 		Not a project per se, but I have been involved in mentoring several developers over the years
 		both personally and as a TA for a coding bootcamp. Most recently helping a mentee go from being
