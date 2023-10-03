@@ -20,6 +20,7 @@ onMounted(async () => {
 
 <template>
   <div v-if="blogData">
-    <Markdown :source="blogData[0].bio"></Markdown>
+    <h3>{{ blogData[0].blogName }}</h3>
+    <Markdown :source="blogData[0].blogContent"></Markdown>
   </div>
 </template>

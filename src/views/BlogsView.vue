@@ -1,14 +1,24 @@
+<script setup>
+import BlogCard from '../components/BlogCard.vue'
+import { onMounted, ref } from 'vue'
+import client from '../sanityConfig.js'
+
+const blogsData = ref(null)
+
+onMounted(async () => {
+  try {
+    blogsData.value = await client.fetch(`*[_type == "blogs"] | order(createdDate desc)`)
+  } catch (error) {
+    console.log(error)
+  }
+})
+</script>
+
 <template>
-  <h2>Blog</h2>
-  <a href="blog/tips-for-learning-a-large-new-codebase-quickly">
-    <div class="card">
-      <h3>Tips for learning a large new codebase quickly</h3>
-      <span class="tag">Web Dev</span>
-      <p>
-        I remember my first day as a working developer and the shock that came with the scale....
-      </p>
-    </div>
-  </a>
+  <h2>Blogs</h2>
+  <template v-for="blog in blogsData" :key="blog.id">
+    <BlogCard :blog-data="blog"></BlogCard>
+  </template>
 </template>
 
 <style>
