@@ -3,6 +3,13 @@ import { onMounted, ref } from 'vue'
 import client from '../sanityConfig.js'
 import { useRoute } from 'vue-router'
 import Markdown from 'vue3-markdown-it'
+import imageUrlBuilder from '@sanity/image-url'
+
+const builder = imageUrlBuilder(client)
+
+function urlFor(source) {
+  return builder.image(source)
+}
 
 const route = useRoute()
 
@@ -21,6 +28,15 @@ onMounted(async () => {
 <template>
   <div v-if="blogData">
     <h3>{{ blogData[0].blogName }}</h3>
+    <img :src="urlFor(blogData[0].myImage.asset._ref)" alt="" />
     <Markdown :source="blogData[0].blogContent"></Markdown>
   </div>
 </template>
+
+<style scoped>
+img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+</style>
