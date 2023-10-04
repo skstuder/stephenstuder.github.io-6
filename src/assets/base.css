@@ -222,6 +222,8 @@ button,
 	padding: 5px 15px;
 	box-shadow: var(--level-1);
 	transition: 0.3s ease-in-out box-shadow;
+	font-weight: 400;
+	margin-right: 5px;
 }
 
 button:hover {
