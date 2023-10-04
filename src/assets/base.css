@@ -294,6 +294,9 @@ button.small {
 .flex-two {
 	flex: 2;
 }
+.flex-three {
+	flex: 3;
+}
 .w-100 {
 	width: 100%;
 }

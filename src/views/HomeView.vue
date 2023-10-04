@@ -19,11 +19,11 @@ onMounted(async () => {
       <div class="flex-one flex flex-align-center flex-justify-center">
         <img src="../assets/images/stephen.png" alt="" />
       </div>
-      <div class="flex-two">
+      <div class="flex-three">
         <h2>User Interface Engineer</h2>
         <p>
           I &#10084; web development. Specialized on the client side but always working to expand
-          out. I also like to about about technology and developer mindset.
+          out. I also like to blog about technology and developer mindset.
         </p>
       </div>
     </div>
