@@ -4,6 +4,7 @@ import client from '../sanityConfig.js'
 import { useRoute } from 'vue-router'
 import Markdown from 'vue3-markdown-it'
 import imageUrlBuilder from '@sanity/image-url'
+import PortfolioLoader from '../components/PortfolioLoader.vue'
 
 const builder = imageUrlBuilder(client)
 
@@ -31,12 +32,16 @@ onMounted(async () => {
     <img :src="urlFor(blogData[0].myImage.asset._ref)" alt="" />
     <Markdown :source="blogData[0].blogContent"></Markdown>
   </div>
+  <PortfolioLoader v-else class="w-full"></PortfolioLoader>
 </template>
 
 <style scoped>
 img {
   height: 250px;
   object-fit: cover;
+  width: 100%;
+}
+.w-full {
   width: 100%;
 }
 </style>
