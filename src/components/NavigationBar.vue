@@ -21,6 +21,7 @@ watchEffect(() => {
       <div>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/projects">Projects</RouterLink>
+        <RouterLink to="/work">Work</RouterLink>
         <RouterLink to="/blogs">Blog</RouterLink>
       </div>
     </nav>

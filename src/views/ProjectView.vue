@@ -1,31 +1,6 @@
 <template>
   <div>
     <div>
-      <h2>Notable Work Projects</h2>
-      <ul>
-        <li>
-          Architected a headless CDP and associated pattern library of reusable branded components.
-          Reached MVP in 6 months. Built a feature that took an existing 7-9 day process for an
-          adjacent team and reduced it to 45 minutes, resulting in millions of dollars of projected
-          revenue.
-        </li>
-        <li>
-          Created a pattern library of reusable and accessible UI components, defined styles and
-          color palettes, and npm distribtion.
-        </li>
-        <li>
-          Contributed to an existing pattern library and refactored an existing 250,000 line
-          codebase to use each of the defined patterns.
-        </li>
-        <li>
-          Several software integrations with outside vendors, making each instance seamless in the
-          target application.
-        </li>
-        <li>
-          Several large scale updates include vue 2 to vue 3, JavaScript to TypeScript in a stepwise
-          fashion, Foundation to Tailwind.
-        </li>
-      </ul>
       <h2>Personal Toy Projects</h2>
       <h4>Pomodoro Tasks</h4>
       <p>
@@ -53,6 +28,18 @@
       <button>Code</button>
     </a>
     <a href="https://pulpfantasypointpotiental.netlify.app/" target="_blank">
+      <button>Site</button>
+    </a>
+  </div>
+  <br />
+  <div>
+    <h4>Personal Blog Site</h4>
+    <p>
+      This is a less formal blog site that I maintain as documentation of things I learn along the
+      way and tracking of accomplishments. It is very simply written in HTML and CSS.
+    </p>
+
+    <a href="https://www.skstuder.com" target="_blank">
       <button>Site</button>
     </a>
   </div>
