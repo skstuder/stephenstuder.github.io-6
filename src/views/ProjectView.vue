@@ -1,3 +1,6 @@
+<script setup>
+import { RouterLink } from 'vue-router'
+</script>
 <template>
   <div>
     <div>
@@ -33,10 +36,23 @@
   </div>
   <br />
   <div>
+    <h4>Professional Blog Site</h4>
+    <p>
+      I have built a blog within this site that I use as a more professional blog. It is written
+      using Sanity.io as a headless CMS with Vue components.
+    </p>
+
+    <RouterLink to="/blogs">
+      <button>Site</button>
+    </RouterLink>
+  </div>
+  <br />
+  <div>
     <h4>Personal Blog Site</h4>
     <p>
       This is a less formal blog site that I maintain as documentation of things I learn along the
-      way and tracking of accomplishments. It is very simply written in HTML and CSS.
+      way and tracking of accomplishments. It is intentially built with no framework or library to
+      keep it as simple as possible.
     </p>
 
     <a href="https://www.skstuder.com" target="_blank">
