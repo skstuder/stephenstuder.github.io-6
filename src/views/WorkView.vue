@@ -9,8 +9,8 @@
         revenue.
       </li>
       <li>
-        Led a full TypeScript conversion of a 100,000 line codebase. This included ideation,
-        planning, team ramp-up planning, and execution. The conversion was completed in 6 months.
+        Led a full TypeScript conversion of an existing codebase. This included ideation, planning,
+        team ramp-up, and execution. The conversion was completed in 6 months.
       </li>
       <li>
         Multiple pattern library projects. I have built 2, and contributed to a large scale
